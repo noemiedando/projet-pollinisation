@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans+KR:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
+
+.menu-toggle {
+  font-size: 80px;
+}
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 25%;
+}
+
+h4 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+ul h4 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  line-height: 0.1em;
+}
+
+ul p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+}
+
+#liste h4 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  line-height: 0.1em;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+}
+
+.p2 {
+  line-height: 90%;
+}
+
+.navigation {
+  font-size: 30px;
+}
+
+a {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.color2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+footer {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}

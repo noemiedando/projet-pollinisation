@@ -1,0 +1,281 @@
+#main-menu {
+  padding-top: 4em;
+  position: absolute;
+  top: 0;
+  left: -400px;
+  width: 400px;
+  height: 100%;
+  transition: 1s ease all;
+  z-index: 999;
+}
+
+#main-menu:target {
+  left: 0;
+}
+
+nav a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #293738;
+}
+
+.menu-toggle {
+  text-decoration: none;
+  margin-left: 0.5em;
+  color: white;
+}
+
+.menu-close {
+  display: block;
+  width: 16px;
+  height: 16px;
+  color: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+#main-menu:target+.backdrop {
+  background: #293738;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+}
+
+@media (min-width : 750px) {
+  #main-menu {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+  }
+
+  #main-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu-toggle,
+  .menu-close {
+    display: none;
+  }
+}
+
+.p2:hover {
+  color : #C47F10;
+}
+
+body {
+  background: #293738;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  color: #293738;
+}
+
+h4 {
+  color: #293738;
+  padding-bottom: 5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul h4 {
+  color: white;
+}
+
+.titre h1 {
+  padding: 30px;
+}
+
+.titre {
+  color: white;
+  min-height: 80vh;
+  background: #293738 url('images/byme4.png') top center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.color {
+  color: white;
+}
+
+.color2 {
+  color: #293738;
+}
+
+#intro h2 {
+  padding-bottom: 25px;
+}
+
+#intro {
+  margin: 11em;
+  color: white;
+}
+
+.intro-container {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container h2 {
+  padding-bottom: 35px;
+}
+
+.intro-text {
+  width: 80vh;
+}
+
+.intro-container img {
+  width: 40%;
+  height: 40%;
+  padding: 4em;
+}
+
+#liste1 {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.p2 {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em;
+  text-align: center;
+  padding-top: 4em;
+}
+
+.navigation2 h4 {
+  color: white;
+}
+
+#liste {
+  background: white;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.steps a {
+  text-decoration: none;
+  color: #293738;
+}
+
+.p1 {
+  text-decoration: none;
+  color: #293738;
+}
+
+#images {
+  background: #E09641;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.illu-container {
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.illu-feature {
+  padding: 1em;
+  margin-bottom: 1em;
+  flex-basis: 320px;
+  flex-grow: 0;
+}
+
+.illu-feature img {
+  max-width: 80%;
+}
+
+#etapes p {
+  color: #293738;
+  padding-top: 1.5em;
+}
+
+#etapes h3 {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.container1 {
+  padding-top: 5em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  width: 70vh;
+  margin: 80px;
+  padding: 3em;
+  border-radius: 30px;
+  background: white;
+}
+
+.container2 {
+  padding-top: 5em;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text2 {
+  width: 120vh;
+  margin: 80px;
+  padding: 4em;
+  border-radius: 30px;
+  background: white;
+  /*box-shadow: inset 0 0 0.5em #E3E6E8, 0 0 1em #E3E6E8;*/
+}
+
+video {
+  border-radius: 30px;
+}
+
+footer {
+  height: 6em;
+  text-align: center;
+  color: white;
+}
+
+.pied {
+  padding: 3em;
+  text-decoration: none;
+}
