@@ -110,6 +110,17 @@ ul h4 {
   flex-direction: column;
 }
 
+.titreetapes {
+  color: white;
+  min-height: 40vh;
+  background: #293738 url('images/bymeshort.png') top center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .color {
   color: white;
 }
